@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('uploadpage');
+});
+
+Route::post('/', function(){
+    return Plupload::receive('file', function($file){
+        $file->move(public_path().'/upload/', $file->getClientOriginalName());
+        return 'ready';
+    });
 });
