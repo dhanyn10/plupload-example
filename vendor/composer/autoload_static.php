@@ -253,6 +253,10 @@ class ComposerStaticInit88bd933d1de61736b82a3d59f39de0d6
         ),
         'J' => 
         array (
+            'JildertMiedema\\LaravelPlupload' => 
+            array (
+                0 => __DIR__ . '/..' . '/jildertmiedema/laravel-plupload/src',
+            ),
             'JakubOnderka\\PhpConsoleHighlighter' => 
             array (
                 0 => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src',
@@ -1519,6 +1523,13 @@ class ComposerStaticInit88bd933d1de61736b82a3d59f39de0d6
         'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/ConsoleColor.php',
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/JakubOnderka/PhpConsoleHighlighter/Highlighter.php',
+        'JildertMiedema\\LaravelPlupload\\Builder' => __DIR__ . '/..' . '/jildertmiedema/laravel-plupload/src/JildertMiedema/LaravelPlupload/Builder.php',
+        'JildertMiedema\\LaravelPlupload\\Facades\\Plupload' => __DIR__ . '/..' . '/jildertmiedema/laravel-plupload/src/JildertMiedema/LaravelPlupload/Facades/Plupload.php',
+        'JildertMiedema\\LaravelPlupload\\LaravelPluploadServiceProvider' => __DIR__ . '/..' . '/jildertmiedema/laravel-plupload/src/JildertMiedema/LaravelPlupload/LaravelPluploadServiceProvider.php',
+        'JildertMiedema\\LaravelPlupload\\Manager' => __DIR__ . '/..' . '/jildertmiedema/laravel-plupload/src/JildertMiedema/LaravelPlupload/Manager.php',
+        'JildertMiedema\\LaravelPlupload\\Plupload' => __DIR__ . '/..' . '/jildertmiedema/laravel-plupload/src/JildertMiedema/LaravelPlupload/Plupload.php',
+        'JildertMiedema\\LaravelPlupload\\PluploadException' => __DIR__ . '/..' . '/jildertmiedema/laravel-plupload/src/JildertMiedema/LaravelPlupload/PluploadException.php',
+        'JildertMiedema\\LaravelPlupload\\Receiver' => __DIR__ . '/..' . '/jildertmiedema/laravel-plupload/src/JildertMiedema/LaravelPlupload/Receiver.php',
         'Laravel\\Tinker\\Console\\TinkerCommand' => __DIR__ . '/..' . '/laravel/tinker/src/Console/TinkerCommand.php',
         'Laravel\\Tinker\\TinkerCaster' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerCaster.php',
         'Laravel\\Tinker\\TinkerServiceProvider' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerServiceProvider.php',
